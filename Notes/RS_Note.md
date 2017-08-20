@@ -16,6 +16,7 @@
 
 build up the docker environment:
 - docker image: jupyter/tensorflow-notebook
+
 	jupyter
 	python3
 	theano
@@ -23,11 +24,13 @@ build up the docker environment:
 - Keras: ruibo/jupyter_keras
 
 - Write Dockerfile
+
  based on existed image
  create a new image with keras
  push on the repository of docker cloud
 
 - pull the image
+
  run => create container
  learn how to use "run"
  port
