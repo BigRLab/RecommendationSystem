@@ -1,20 +1,20 @@
-#Keras Sequential model
+# Keras Sequential model
 
 Sequential moddes: linear stack of layers
-##input shape
+## input shape
 input_shape: first layer
   a tuple of integer or none
 
 input_dim, input_length: 2D/ 3D layers
 batch_size: specify a fixed batch size for inputs(for stateful recurrent networks)
 
-##Compilation
+## Compilation
 configure the learning process
 - optimizer:
 - loss function: existed loss function(string identifier) or objective function
 - list of metrics: string identifier or custom metric function
 
-##Training
+## Training
 Keras model: trained on Numpy arrays of input data and labels
 fit:
 ----
@@ -34,4 +34,4 @@ a model will be in one line
 
 model can get weights, load weights, draw the architecture and load the existed model weights
 ----
-#Layers
+# Layers
