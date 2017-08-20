@@ -16,10 +16,10 @@
 
 build up the docker environment:
 - docker image: jupyter/tensorflow-notebook
-...	- jupyter
-...	- python3
-...	- theano
-...	- tensorflow
+...	jupyter
+...	python3
+...	theano
+...	tensorflow
 - Keras: ruibo/jupyter_keras
 
 - Write Dockerfile
@@ -28,16 +28,16 @@ build up the docker environment:
 ...push on the repository of docker cloud
 
 - pull the image
-...run => create container
-...learn how to use "run"
-...	- port
-...	- mounts the volume like U-flash
-...	- give the name of container
+... run => create container
+... learn how to use "run"
+...	port
+...	mounts the volume like U-flash
+...	give the name of container
 
 ---
 ## Task2: Keras and code
-TODO:
-See the original code of Keras to learn more
+TODO:See the original code of Keras to learn more
+
 ----
 ## Task 3: run the basic model of DSSM
 - create a local repo for the Project
